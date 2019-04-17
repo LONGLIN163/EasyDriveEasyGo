@@ -2,8 +2,8 @@ import React from 'react'
 import {connect} from 'dva'
 
 class BigImgbox extends React.Component {
-  constructor(){
-      super()
+  constructor(props){
+      super(props)
       this.state={
         loadDone:false
       }

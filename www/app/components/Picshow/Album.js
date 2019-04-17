@@ -3,8 +3,8 @@ import { connect } from 'dva';
 import classnames from 'classnames'
 
 class Album extends React.Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
     }
   render() {
     if(!this.props.carinfo.imgs) return null;

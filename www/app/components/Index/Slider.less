@@ -1,0 +1,38 @@
+
+  .controler{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    font-size: 60px;
+    height: 0;
+  }
+  
+  .slider-innerContainer {
+    transition: left 0.8s ease-out;
+    display: flex;
+    position: relative;
+    height: 500px;
+  }
+  .slider-innerContainer > * {
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+  }
+  .slider-innerContainer > * img {
+    height: 600px;
+    width: 100%;
+    position: absolute;
+  }
+  
+  
+  .slid__arrow{
+    font-size: 110px;
+    height: 90px;
+    margin-bottom: 30px;
+    position: relative;
+    top: -200px;
+    cursor: pointer;
+  }

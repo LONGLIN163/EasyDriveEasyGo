@@ -14,6 +14,8 @@ module.exports=mongooes.model("Car",{
     "licenseplate":Boolean,
     "locality":Boolean,
     "eco":String,
-    "imgs":Object
+    "imgs":Object,
+    "type":String,
+    "files":Array
 
 }) 

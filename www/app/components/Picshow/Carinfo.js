@@ -2,8 +2,8 @@ import React from 'react'
 import { connect } from 'dva';
 
 class Carinfo extends React.Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
     }
   render() {
     return (

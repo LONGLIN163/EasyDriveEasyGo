@@ -12,7 +12,9 @@ import BigImgbox from './BigImgbox'
 class Picshow extends React.Component {
   constructor(props){
     super(props)
-  this.props.dispatch({"type":"picshow/init","nowid":1000009})
+    console.log(props)
+    //this.props.dispatch({"type":"picshow/init","nowid":1000042})
+    this.props.dispatch({"type":"picshow/init","nowid":props.match.params.id})
   }
   render() {
     return (
@@ -30,4 +32,8 @@ class Picshow extends React.Component {
   }
 }
 
-export default connect()(Picshow)
+export default connect(
+  ({routing})=>({
+    location:routing.location
+  })
+)(Picshow)

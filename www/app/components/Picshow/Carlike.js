@@ -4,8 +4,8 @@ import classnames from 'classnames'
 
 
 class Carlike extends React.Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
     }
     
     componentDidMount(){

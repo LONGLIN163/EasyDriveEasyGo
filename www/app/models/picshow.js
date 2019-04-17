@@ -2,7 +2,7 @@ import * as R from "ramda"
 export default {
     namespace:"picshow",
     state:{
-        nowid:1000009,
+        nowid:1000038,
         nowalbum:"view",
         nowidx:0,
         carinfo:{},
