@@ -20,7 +20,7 @@
     "formidable": "^1.2.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "mongoose": "^4.13.18",
     "redux-logger": "^3.0.6",
     "style-loader": "^0.23.1",
