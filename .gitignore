@@ -13,4 +13,4 @@ node_modules
 .vscode
 
 ### Webpack ###
-/dist
+dist
