@@ -1,22 +1,29 @@
-# EasyCars
-A small vehicle trading platform.Including more than 30 business scenarios.Back-end's technologies  are mongo and node .Front-end's technologies  are react(,webpack,redux,saga,dva),es,jquery, jqueryUI,antd,css/less etc.
 
-Thank your browsing.
+UCTP_Used Cars Trading Platform
+===================================
 
-I don't know how to host a app with database on some platform such as Github.so...
+This is a React based MERN project, It is a small vehicle trading platform , simulates more than 30 UX scenarios. 
+Back-end are mongo and node. Front-end covers react(,webpack,redux,saga,dva), jquery, jqueryUI,antd,css/less etc.
 
-if want to see how the web works(){
 
-    if(it is possible){
-        1.Download code from master o branch.drag it into teh VS code.
-        2.Check package.json to if you've already have all the dependencies.
-        3.make a sameple database with mongodb.link to the database.
-        4.run.
-    }else{
-        email me:developer.lin123@gmail.com
-    }
-    
-    return "thanks".
-  
-}
+### Build 
+
+```bash
+npm install
+```
+
+```bash
+npm install --save-dev webpack-cli 
+npm install --save-dev webpack@4.42.0
+webpack
+```
+
+
+### Run 
+
+```bash
+
+node app.js
+
+```
 
