@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 ===================================
 ###  GotACar_Used Cars Trading Platform
+=======
+
+===================================
+### GotACar_A used car trading plantform 
+>>>>>>> dev
 
 This is a React based MERN project, It is a small vehicle trading platform , simulates more than 30 UX scenarios. 
 Back-end are mongo and node. Front-end covers react(,webpack,redux,saga,dva), jquery, jqueryUI,antd,css/less etc.
