@@ -23,7 +23,7 @@ mongoimport -d coolcars -c restaurants cars xxx/cardata.json --drop
 
 ### Build 
 
--Install modules
+-Install node modules
 ```bash
 npm install
 ```
