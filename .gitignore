@@ -6,11 +6,11 @@ logs
 *.log
 npm-debug.log*
 node_modules
-dist
+
 
 ### IDE ###
 .idea
 .vscode
 
-### pack utils ###
-.idea
+### Packaging Tools ###
+/dist
