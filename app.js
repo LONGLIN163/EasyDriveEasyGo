@@ -11,7 +11,8 @@ var gm=require("gm")
 
 //connect to the database
 var mongoose=require("mongoose")
-mongoose.connect("localhost/coolcars")
+//mongoose.connect("localhost/coolcars")
+mongoose.connect("mongodb://localhost:27017/coolcars", { useNewUrlParser: true });
 
 //import the model file
 var Car=require("./models/Car")
