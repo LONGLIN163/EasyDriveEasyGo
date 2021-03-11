@@ -1,7 +1,7 @@
 
 React_used car trading plantform 
 ===================================
-This is a React based MERN project, It is a small vehicle trading platform , simulates more than 30 UX scenarios. Back-end are mongo and node. Front-end covers react(,webpack,redux,saga,dva), jquery, jqueryUI,antd,css/less etc.Focus on optimizing user experience by preload, asynchronous upload and real-time display. Increase visits and use efficiency on clientside by multiple filter techniques, creating backend database by form validation. User registers and submits personal information and uploads their product information.
+This is a React based MERN project, It is a small vehicle trading platform , simulates more than 30 UX scenarios. Back-end are mongo and node. Front-end covers react(,webpack,redux,saga,dva), jquery, jqueryUI,antd,css/less etc.Focus on optimizing user experience by preload, asynchronous upload and real-time display. Increase visits and use efficiency on clientside by multiple filter techniques, creating backend database by form validation. User registers and submits personal information and uploads their product information...
 
 ### Connect to database 
 
